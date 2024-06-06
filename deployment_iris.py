@@ -12,7 +12,8 @@ import os
 
 
 def predict(x1,x2,x3,x4):    # load mô hình
-    loaded_model = pickle.load(open('.mount/src/deployment_streamlit/model.sav','rb'))
+    model_url="https://github.com/trieuhuong/deployment_streamlit/raw/branch/path/to/your/model.sav"
+    loaded_model = pickle.load(open(model_url,'rb'))
     row=[]
     row.append(x1)
     row.append(x2)
