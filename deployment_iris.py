@@ -8,12 +8,6 @@ Created on Wed Jun  5 09:41:32 2024
 import streamlit as st
 import pickle
 import pandas as pd
-from sklearn.linear_model import LogisticRegression  # for Logistic Regression algorithm
-from sklearn.model_selection import train_test_split#to split the dataset for training and testing
-from sklearn.neighbors import KNeighborsClassifier  # for K nearest neighbours
-from sklearn import svm  #for Support Vector Machine (SVM) Algorithm
-from sklearn import metrics #for checking the model accuracy
-from sklearn.tree import DecisionTreeClassifier #for using Decision Tree Algoithm
 import os
 
 
