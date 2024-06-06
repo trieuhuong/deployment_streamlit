@@ -12,7 +12,7 @@ import os
 
 
 def predict(x1,x2,x3,x4):    # load mô hình
-    loaded_model = pickle.load(open('./model.sav','rb'))
+    loaded_model = pickle.load(open('/github/model.sav','rb'))
     row=[]
     row.append(x1)
     row.append(x2)
